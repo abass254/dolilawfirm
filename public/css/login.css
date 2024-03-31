@@ -1,0 +1,53 @@
+/*------------------------------------------------------------------------------
+ * Custom CSS /Ubunifu .@daugmaud
+ *----------------------------------------------------------------------------*/
+
+ html body div.app-theme-white.app-container {
+    background: url(../images/login/login-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+html body section.flexbox-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 82);
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.bg-authentication {
+    background-color : #EFF2F7;
+}
+.bg-authentication .login-footer {
+    padding : 0rem 1.5rem 0.5rem;
+}
+.bg-authentication .login-footer .footer-btn .btn {
+    padding : 0.7rem 1rem !important;
+    margin : 1rem 1rem 1rem 0rem;
+}
+div.footer-btn a.btn object {
+    height: 20px;
+    width: 15px;
+}
+svg, svg path {
+    color: #fff!important;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .bg-authentication {
+        width : 100%;
+    }
+}
+label {
+    cursor: pointer;
+}
+.xh-100 {
+    height: 465px!important;
+}
