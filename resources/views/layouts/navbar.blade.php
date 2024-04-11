@@ -76,12 +76,9 @@
                     <a class="dropdown-item">No Matches</a>
                 </div> -->
                 <!-- <button class="close"></button> -->
-                <a href="/case/create" class="btn btn-light "><b>CREATE A CLIENT</b></a>
-
-                <button type="button" data-toggle="modal" data-target="#exampleModal" data-backdrop="static"
-                    title="Feedback Section" data-placement="bottom" class="btn-shadow btn-pilled mr-3 btn btn-danger">
-                    Data Protection
-                </button>
+                <a href="/case/create" class="btn btn-{{ request()->segment(1) == 'case' ? 'primary' : 'light' }} mr-2"><b>FILE A CASE</b></a>
+                <a href="/clients-list" class="btn btn-light mr-2"><b>VIEW CLIENTS</b></a>
+                <a href="/cases-list" class="btn btn-light mr-2"><b>VIEW CASES</b></a>
             </div>
         </div>
         <div class="app-header-right">
